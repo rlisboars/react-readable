@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component testing #### capturing snapshot of App 1`] = `
+<div
+  className="App"
+>
+  <Switch>
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/"
+    />
+    <Route
+      component={[Function]}
+      path="/post/:id"
+    />
+    <Route
+      component={[Function]}
+      path="/:category"
+    />
+  </Switch>
+  <footer>
+    <div
+      className="spacer"
+    />
+    <div
+      className="footer"
+    >
+      by 
+      <a
+        href="https://github.com/rlisboars/"
+        rel="noopener noreferrer"
+        style={
+          Object {
+            "marginBottom": "0px",
+          }
+        }
+        target="_blank"
+      >
+        rlisboars
+      </a>
+    </div>
+  </footer>
+</div>
+`;

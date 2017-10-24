@@ -1,0 +1,982 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Post Component testing ### validates snapshot of Post with details and coments 1`] = `
+<Post
+  comments={
+    Array [
+      Object {
+        "author": "thingtwo",
+        "body": "Hi there! I am a COMMENT.",
+        "deleted": false,
+        "id": "894tuq4ut84ut8v4t8wun89g",
+        "parentDeleted": false,
+        "parentId": "8xf0y6ziyjabvozdd253nd",
+        "timestamp": 1468166872634,
+        "voteScore": 6,
+      },
+    ]
+  }
+  data={
+    Object {
+      "author": "thingtwo",
+      "body": "Everyone says so after all.",
+      "category": "react",
+      "deleted": false,
+      "id": "8xf0y6ziyjabvozdd253nd",
+      "timestamp": 1467166872634,
+      "title": "Udacity is the best place to learn React",
+      "voteScore": 6,
+    }
+  }
+>
+  <Segment
+    className="post"
+    raised={true}
+  >
+    <div
+      className="ui raised segment post"
+    >
+      <Grid
+        divided={true}
+        stretched={true}
+      >
+        <div
+          className="ui stretched divided grid"
+        >
+          <GridColumn
+            style={
+              Object {
+                "padding": "0",
+              }
+            }
+            textAlign="center"
+            width={2}
+          >
+            <div
+              className="center aligned two wide column"
+              style={
+                Object {
+                  "padding": "0",
+                }
+              }
+            >
+              <Menu
+                fluid={true}
+                text={true}
+                vertical={true}
+              >
+                <div
+                  className="ui fluid text vertical menu"
+                >
+                  <MenuItem>
+                    <div
+                      className="item"
+                      onClick={[Function]}
+                    >
+                      <Button
+                        as="button"
+                        compact={true}
+                        icon="arrow up"
+                        onClick={[Function]}
+                      >
+                        <button
+                          className="ui compact icon button"
+                          disabled={undefined}
+                          onClick={[Function]}
+                          role="button"
+                          tabIndex={undefined}
+                        >
+                          <Icon
+                            as="i"
+                            key="arrow up"
+                            name="arrow up"
+                          >
+                            <i
+                              aria-hidden="true"
+                              className="arrow up icon"
+                            />
+                          </Icon>
+                        </button>
+                      </Button>
+                    </div>
+                  </MenuItem>
+                  <MenuItem>
+                    <div
+                      className="item"
+                      onClick={[Function]}
+                    >
+                      <Header
+                        as="h4"
+                      >
+                        <h4
+                          className="ui header"
+                        >
+                          6
+                        </h4>
+                      </Header>
+                    </div>
+                  </MenuItem>
+                  <MenuItem>
+                    <div
+                      className="item"
+                      onClick={[Function]}
+                    >
+                      <Button
+                        as="button"
+                        compact={true}
+                        icon="arrow down"
+                        onClick={[Function]}
+                      >
+                        <button
+                          className="ui compact icon button"
+                          disabled={undefined}
+                          onClick={[Function]}
+                          role="button"
+                          tabIndex={undefined}
+                        >
+                          <Icon
+                            as="i"
+                            key="arrow down"
+                            name="arrow down"
+                          >
+                            <i
+                              aria-hidden="true"
+                              className="arrow down icon"
+                            />
+                          </Icon>
+                        </button>
+                      </Button>
+                    </div>
+                  </MenuItem>
+                </div>
+              </Menu>
+            </div>
+          </GridColumn>
+          <GridColumn
+            width={14}
+          >
+            <div
+              className="fourteen wide column"
+            >
+              <Grid>
+                <div
+                  className="ui grid"
+                >
+                  <GridRow>
+                    <div
+                      className="row"
+                    >
+                      <GridColumn
+                        width={14}
+                      >
+                        <div
+                          className="fourteen wide column"
+                        >
+                          <Header
+                            as="h3"
+                          >
+                            <h3
+                              className="ui header"
+                            >
+                              <Link
+                                replace={false}
+                                to="/post/8xf0y6ziyjabvozdd253nd"
+                              >
+                                <a
+                                  href="/post/8xf0y6ziyjabvozdd253nd"
+                                  onClick={[Function]}
+                                >
+                                  Udacity is the best place to learn React
+                                </a>
+                              </Link>
+                            </h3>
+                          </Header>
+                        </div>
+                      </GridColumn>
+                      <GridColumn
+                        style={
+                          Object {
+                            "paddingLeft": "0px",
+                          }
+                        }
+                        width={2}
+                      >
+                        <div
+                          className="two wide column"
+                          style={
+                            Object {
+                              "paddingLeft": "0px",
+                            }
+                          }
+                        >
+                          <ButtonGroup
+                            basic={true}
+                            floated="right"
+                            size="mini"
+                          >
+                            <div
+                              className="ui mini basic right floated buttons"
+                            >
+                              <Button
+                                as="button"
+                                compact={true}
+                                icon="write"
+                                onClick={[Function]}
+                              >
+                                <button
+                                  className="ui compact icon button"
+                                  disabled={undefined}
+                                  onClick={[Function]}
+                                  role="button"
+                                  tabIndex={undefined}
+                                >
+                                  <Icon
+                                    as="i"
+                                    key="write"
+                                    name="write"
+                                  >
+                                    <i
+                                      aria-hidden="true"
+                                      className="write icon"
+                                    />
+                                  </Icon>
+                                </button>
+                              </Button>
+                              <Button
+                                as="button"
+                                compact={true}
+                                icon="trash"
+                                onClick={[Function]}
+                              >
+                                <button
+                                  className="ui compact icon button"
+                                  disabled={undefined}
+                                  onClick={[Function]}
+                                  role="button"
+                                  tabIndex={undefined}
+                                >
+                                  <Icon
+                                    as="i"
+                                    key="trash"
+                                    name="trash"
+                                  >
+                                    <i
+                                      aria-hidden="true"
+                                      className="trash icon"
+                                    />
+                                  </Icon>
+                                </button>
+                              </Button>
+                            </div>
+                          </ButtonGroup>
+                        </div>
+                      </GridColumn>
+                    </div>
+                  </GridRow>
+                  <GridRow
+                    className="post-content-bottom"
+                  >
+                    <div
+                      className="row post-content-bottom"
+                    >
+                      <GridColumn
+                        width={12}
+                      >
+                        <div
+                          className="twelve wide column"
+                        >
+                          by 
+                          thingtwo
+                           to 
+                          react
+                           on 
+                          2016-06-28 23:21:12
+                        </div>
+                      </GridColumn>
+                      <GridColumn
+                        textAlign="right"
+                        width={4}
+                      >
+                        <div
+                          className="right aligned four wide column"
+                        >
+                          <Link
+                            replace={false}
+                            to="/post/8xf0y6ziyjabvozdd253nd"
+                          >
+                            <a
+                              href="/post/8xf0y6ziyjabvozdd253nd"
+                              onClick={[Function]}
+                            >
+                              1
+                               comments
+                            </a>
+                          </Link>
+                        </div>
+                      </GridColumn>
+                    </div>
+                  </GridRow>
+                </div>
+              </Grid>
+            </div>
+          </GridColumn>
+        </div>
+      </Grid>
+    </div>
+  </Segment>
+</Post>
+`;
+
+exports[`Post Component testing #### validates snapshot of Post with details 1`] = `
+<Post
+  data={
+    Object {
+      "author": "thingtwo",
+      "body": "Everyone says so after all.",
+      "category": "react",
+      "deleted": false,
+      "id": "8xf0y6ziyjabvozdd253nd",
+      "timestamp": 1467166872634,
+      "title": "Udacity is the best place to learn React",
+      "voteScore": 6,
+    }
+  }
+>
+  <Segment
+    className="post"
+    raised={true}
+  >
+    <div
+      className="ui raised segment post"
+    >
+      <Grid
+        divided={true}
+        stretched={true}
+      >
+        <div
+          className="ui stretched divided grid"
+        >
+          <GridColumn
+            style={
+              Object {
+                "padding": "0",
+              }
+            }
+            textAlign="center"
+            width={2}
+          >
+            <div
+              className="center aligned two wide column"
+              style={
+                Object {
+                  "padding": "0",
+                }
+              }
+            >
+              <Menu
+                fluid={true}
+                text={true}
+                vertical={true}
+              >
+                <div
+                  className="ui fluid text vertical menu"
+                >
+                  <MenuItem>
+                    <div
+                      className="item"
+                      onClick={[Function]}
+                    >
+                      <Button
+                        as="button"
+                        compact={true}
+                        icon="arrow up"
+                        onClick={[Function]}
+                      >
+                        <button
+                          className="ui compact icon button"
+                          disabled={undefined}
+                          onClick={[Function]}
+                          role="button"
+                          tabIndex={undefined}
+                        >
+                          <Icon
+                            as="i"
+                            key="arrow up"
+                            name="arrow up"
+                          >
+                            <i
+                              aria-hidden="true"
+                              className="arrow up icon"
+                            />
+                          </Icon>
+                        </button>
+                      </Button>
+                    </div>
+                  </MenuItem>
+                  <MenuItem>
+                    <div
+                      className="item"
+                      onClick={[Function]}
+                    >
+                      <Header
+                        as="h4"
+                      >
+                        <h4
+                          className="ui header"
+                        >
+                          6
+                        </h4>
+                      </Header>
+                    </div>
+                  </MenuItem>
+                  <MenuItem>
+                    <div
+                      className="item"
+                      onClick={[Function]}
+                    >
+                      <Button
+                        as="button"
+                        compact={true}
+                        icon="arrow down"
+                        onClick={[Function]}
+                      >
+                        <button
+                          className="ui compact icon button"
+                          disabled={undefined}
+                          onClick={[Function]}
+                          role="button"
+                          tabIndex={undefined}
+                        >
+                          <Icon
+                            as="i"
+                            key="arrow down"
+                            name="arrow down"
+                          >
+                            <i
+                              aria-hidden="true"
+                              className="arrow down icon"
+                            />
+                          </Icon>
+                        </button>
+                      </Button>
+                    </div>
+                  </MenuItem>
+                </div>
+              </Menu>
+            </div>
+          </GridColumn>
+          <GridColumn
+            width={14}
+          >
+            <div
+              className="fourteen wide column"
+            >
+              <Grid>
+                <div
+                  className="ui grid"
+                >
+                  <GridRow>
+                    <div
+                      className="row"
+                    >
+                      <GridColumn
+                        width={14}
+                      >
+                        <div
+                          className="fourteen wide column"
+                        >
+                          <Header
+                            as="h3"
+                          >
+                            <h3
+                              className="ui header"
+                            >
+                              <Link
+                                replace={false}
+                                to="/post/8xf0y6ziyjabvozdd253nd"
+                              >
+                                <a
+                                  href="/post/8xf0y6ziyjabvozdd253nd"
+                                  onClick={[Function]}
+                                >
+                                  Udacity is the best place to learn React
+                                </a>
+                              </Link>
+                            </h3>
+                          </Header>
+                        </div>
+                      </GridColumn>
+                      <GridColumn
+                        style={
+                          Object {
+                            "paddingLeft": "0px",
+                          }
+                        }
+                        width={2}
+                      >
+                        <div
+                          className="two wide column"
+                          style={
+                            Object {
+                              "paddingLeft": "0px",
+                            }
+                          }
+                        >
+                          <ButtonGroup
+                            basic={true}
+                            floated="right"
+                            size="mini"
+                          >
+                            <div
+                              className="ui mini basic right floated buttons"
+                            >
+                              <Button
+                                as="button"
+                                compact={true}
+                                icon="write"
+                                onClick={[Function]}
+                              >
+                                <button
+                                  className="ui compact icon button"
+                                  disabled={undefined}
+                                  onClick={[Function]}
+                                  role="button"
+                                  tabIndex={undefined}
+                                >
+                                  <Icon
+                                    as="i"
+                                    key="write"
+                                    name="write"
+                                  >
+                                    <i
+                                      aria-hidden="true"
+                                      className="write icon"
+                                    />
+                                  </Icon>
+                                </button>
+                              </Button>
+                              <Button
+                                as="button"
+                                compact={true}
+                                icon="trash"
+                                onClick={[Function]}
+                              >
+                                <button
+                                  className="ui compact icon button"
+                                  disabled={undefined}
+                                  onClick={[Function]}
+                                  role="button"
+                                  tabIndex={undefined}
+                                >
+                                  <Icon
+                                    as="i"
+                                    key="trash"
+                                    name="trash"
+                                  >
+                                    <i
+                                      aria-hidden="true"
+                                      className="trash icon"
+                                    />
+                                  </Icon>
+                                </button>
+                              </Button>
+                            </div>
+                          </ButtonGroup>
+                        </div>
+                      </GridColumn>
+                    </div>
+                  </GridRow>
+                  <GridRow
+                    className="post-content-bottom"
+                  >
+                    <div
+                      className="row post-content-bottom"
+                    >
+                      <GridColumn
+                        width={12}
+                      >
+                        <div
+                          className="twelve wide column"
+                        >
+                          by 
+                          thingtwo
+                           to 
+                          react
+                           on 
+                          2016-06-28 23:21:12
+                        </div>
+                      </GridColumn>
+                      <GridColumn
+                        textAlign="right"
+                        width={4}
+                      >
+                        <div
+                          className="right aligned four wide column"
+                        >
+                          <Link
+                            replace={false}
+                            to="/post/8xf0y6ziyjabvozdd253nd"
+                          >
+                            <a
+                              href="/post/8xf0y6ziyjabvozdd253nd"
+                              onClick={[Function]}
+                            >
+                              0
+                               comments
+                            </a>
+                          </Link>
+                        </div>
+                      </GridColumn>
+                    </div>
+                  </GridRow>
+                </div>
+              </Grid>
+            </div>
+          </GridColumn>
+        </div>
+      </Grid>
+    </div>
+  </Segment>
+</Post>
+`;
+
+exports[`Post Component testing #### validates snapshot of Post without details 1`] = `
+<Post
+  data={
+    Object {
+      "author": "thingtwo",
+      "body": "Everyone says so after all.",
+      "category": "react",
+      "deleted": false,
+      "id": "8xf0y6ziyjabvozdd253nd",
+      "timestamp": 1467166872634,
+      "title": "Udacity is the best place to learn React",
+      "voteScore": 6,
+    }
+  }
+  deleteContent={[Function]}
+  detailed="true"
+  editPost={[Function]}
+  vote={[Function]}
+>
+  <Segment
+    className="post"
+    raised={true}
+  >
+    <div
+      className="ui raised segment post"
+    >
+      <Grid
+        divided={true}
+        stretched={true}
+      >
+        <div
+          className="ui stretched divided grid"
+        >
+          <GridColumn
+            style={
+              Object {
+                "padding": "0",
+              }
+            }
+            textAlign="center"
+            width={2}
+          >
+            <div
+              className="center aligned two wide column"
+              style={
+                Object {
+                  "padding": "0",
+                }
+              }
+            >
+              <Menu
+                fluid={true}
+                text={true}
+                vertical={true}
+              >
+                <div
+                  className="ui fluid text vertical menu"
+                >
+                  <MenuItem>
+                    <div
+                      className="item"
+                      onClick={[Function]}
+                    >
+                      <Button
+                        as="button"
+                        compact={true}
+                        icon="arrow up"
+                        onClick={[Function]}
+                      >
+                        <button
+                          className="ui compact icon button"
+                          disabled={undefined}
+                          onClick={[Function]}
+                          role="button"
+                          tabIndex={undefined}
+                        >
+                          <Icon
+                            as="i"
+                            key="arrow up"
+                            name="arrow up"
+                          >
+                            <i
+                              aria-hidden="true"
+                              className="arrow up icon"
+                            />
+                          </Icon>
+                        </button>
+                      </Button>
+                    </div>
+                  </MenuItem>
+                  <MenuItem>
+                    <div
+                      className="item"
+                      onClick={[Function]}
+                    >
+                      <Header
+                        as="h4"
+                      >
+                        <h4
+                          className="ui header"
+                        >
+                          6
+                        </h4>
+                      </Header>
+                    </div>
+                  </MenuItem>
+                  <MenuItem>
+                    <div
+                      className="item"
+                      onClick={[Function]}
+                    >
+                      <Button
+                        as="button"
+                        compact={true}
+                        icon="arrow down"
+                        onClick={[Function]}
+                      >
+                        <button
+                          className="ui compact icon button"
+                          disabled={undefined}
+                          onClick={[Function]}
+                          role="button"
+                          tabIndex={undefined}
+                        >
+                          <Icon
+                            as="i"
+                            key="arrow down"
+                            name="arrow down"
+                          >
+                            <i
+                              aria-hidden="true"
+                              className="arrow down icon"
+                            />
+                          </Icon>
+                        </button>
+                      </Button>
+                    </div>
+                  </MenuItem>
+                </div>
+              </Menu>
+            </div>
+          </GridColumn>
+          <GridColumn
+            width={14}
+          >
+            <div
+              className="fourteen wide column"
+            >
+              <Grid>
+                <div
+                  className="ui grid"
+                >
+                  <GridRow>
+                    <div
+                      className="row"
+                    >
+                      <GridColumn
+                        width={14}
+                      >
+                        <div
+                          className="fourteen wide column"
+                        >
+                          <Header
+                            as="h3"
+                          >
+                            <h3
+                              className="ui header"
+                            >
+                              <Link
+                                replace={false}
+                                to="/post/8xf0y6ziyjabvozdd253nd"
+                              >
+                                <a
+                                  href="/post/8xf0y6ziyjabvozdd253nd"
+                                  onClick={[Function]}
+                                >
+                                  Udacity is the best place to learn React
+                                </a>
+                              </Link>
+                            </h3>
+                          </Header>
+                        </div>
+                      </GridColumn>
+                      <GridColumn
+                        style={
+                          Object {
+                            "paddingLeft": "0px",
+                          }
+                        }
+                        width={2}
+                      >
+                        <div
+                          className="two wide column"
+                          style={
+                            Object {
+                              "paddingLeft": "0px",
+                            }
+                          }
+                        >
+                          <ButtonGroup
+                            basic={true}
+                            floated="right"
+                            size="mini"
+                          >
+                            <div
+                              className="ui mini basic right floated buttons"
+                            >
+                              <Button
+                                as="button"
+                                compact={true}
+                                icon="write"
+                                onClick={[Function]}
+                              >
+                                <button
+                                  className="ui compact icon button"
+                                  disabled={undefined}
+                                  onClick={[Function]}
+                                  role="button"
+                                  tabIndex={undefined}
+                                >
+                                  <Icon
+                                    as="i"
+                                    key="write"
+                                    name="write"
+                                  >
+                                    <i
+                                      aria-hidden="true"
+                                      className="write icon"
+                                    />
+                                  </Icon>
+                                </button>
+                              </Button>
+                              <Button
+                                as="button"
+                                compact={true}
+                                icon="trash"
+                                onClick={[Function]}
+                              >
+                                <button
+                                  className="ui compact icon button"
+                                  disabled={undefined}
+                                  onClick={[Function]}
+                                  role="button"
+                                  tabIndex={undefined}
+                                >
+                                  <Icon
+                                    as="i"
+                                    key="trash"
+                                    name="trash"
+                                  >
+                                    <i
+                                      aria-hidden="true"
+                                      className="trash icon"
+                                    />
+                                  </Icon>
+                                </button>
+                              </Button>
+                            </div>
+                          </ButtonGroup>
+                        </div>
+                      </GridColumn>
+                    </div>
+                  </GridRow>
+                  <GridRow
+                    style={
+                      Object {
+                        "paddingTop": "0px",
+                      }
+                    }
+                  >
+                    <div
+                      className="row"
+                      style={
+                        Object {
+                          "paddingTop": "0px",
+                        }
+                      }
+                    >
+                      <GridColumn>
+                        <div
+                          className="column"
+                        >
+                          Everyone says so after all.
+                        </div>
+                      </GridColumn>
+                    </div>
+                  </GridRow>
+                  <GridRow
+                    className="post-content-bottom"
+                  >
+                    <div
+                      className="row post-content-bottom"
+                    >
+                      <GridColumn
+                        width={12}
+                      >
+                        <div
+                          className="twelve wide column"
+                        >
+                          by 
+                          thingtwo
+                           to 
+                          react
+                           on 
+                          2016-06-28 23:21:12
+                        </div>
+                      </GridColumn>
+                      <GridColumn
+                        textAlign="right"
+                        width={4}
+                      >
+                        <div
+                          className="right aligned four wide column"
+                        >
+                          <Link
+                            replace={false}
+                            to="/post/8xf0y6ziyjabvozdd253nd"
+                          >
+                            <a
+                              href="/post/8xf0y6ziyjabvozdd253nd"
+                              onClick={[Function]}
+                            >
+                              0
+                               comments
+                            </a>
+                          </Link>
+                        </div>
+                      </GridColumn>
+                    </div>
+                  </GridRow>
+                </div>
+              </Grid>
+            </div>
+          </GridColumn>
+        </div>
+      </Grid>
+    </div>
+  </Segment>
+</Post>
+`;

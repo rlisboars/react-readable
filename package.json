@@ -1,0 +1,15 @@
+{
+  "name": "readable",
+  "version": "1.0.0",
+  "description": "Readable project for Udacity React Nanodegree - by rlisboars",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run server | npm run client",
+    "server": "node start-server.js",
+    "client": "node start-client.js",
+    "install": "npm --prefix ./client install ./client && npm --prefix ./server install ./server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}

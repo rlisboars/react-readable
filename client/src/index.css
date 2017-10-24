@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.App {
+  margin: auto;
+  width: 1024px;
+}
+
+.logo {
+  font-family: 'Leckerli One', cursive;
+  font-size: 28px;
+  text-align: center;
+  color: #1e2a51;
+}
+
+.sub-menu {
+   font-size: 12px !important
+}
+
+.sub-menu a {
+  text-decoration: underline;
+}
+
+.category-select {
+  width: 795px;
+  margin-left: -5px;
+}
+
+.category-select-label {
+  background-color: #d8d8d8;
+  color: white;
+  line-height: 38px;
+  padding: 0 15px 0 10px;
+  border-radius: 5px 0 0 5px;
+}
+
+.post-content-bottom {
+  font-size: 11px;
+  color: #494b51;
+}
+
+.comment-user {
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.comment-date {
+  font-size: 11px;
+  color: #494B51;
+}
+
+.comment-content {
+  padding-top: 0px !important;
+}
+
+.comment-score {
+  font-size: 11px;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.btn-form {
+  margin-top: 24px !important;
+}
+
+.footer {
+  background-color: #F8F8F8;
+  border-top: 1px solid #E7E7E7;
+  font-size: 11px;
+  text-align: center;
+  padding: 0px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 20px;
+  width: 100%;
+}
+
+.spacer {
+  display: block;
+  height: 20px;
+  width:  100%;
+  margin-top: 15px;
+}
+
+.loader {
+  width: 50px;
+  margin: 0 auto;
+}
+
+.post a {
+  text-decoration: underline;  
+}
+
+.infoMessage {
+  text-align: center;
+}
