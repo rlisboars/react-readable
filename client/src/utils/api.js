@@ -11,7 +11,7 @@ const authHeaders= {
 export function fetchCategories() {
     return fetch(`${URL}/categories`, authHeaders)
             .then(res => res.json())
-            .then(({ categories }) => categories)
+            .then(({categories}) => categories)
 }
 
 export function fetchPosts(category = undefined) {

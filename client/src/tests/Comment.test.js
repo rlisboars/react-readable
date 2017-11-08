@@ -2,12 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { MemoryRouter } from 'react-router-dom'
 import { Comment } from '../components/Comment'
-import { configure, mount, shallow } from 'enzyme'
+import { mount, shallow } from 'enzyme'
 import toJson from 'enzyme-to-json'
 import Adapter from 'enzyme-adapter-react-15'
 import { store } from './mockStore'
-
-configure({ adapter: new Adapter() })
 
 const commentData = {
     author: 'thingtwo',
@@ -60,7 +58,7 @@ describe('Comment Component testing', () => {
 
     it('### edit button is working properly', () => {
         comment.find({ icon: 'write' }).simulate('click')
-        expect(editCommentFn).toHaveBeenCalledWith(commentData.parentId, commentData.id)
+        expect(editCommentFn).toHaveBeenCalledWith(commentData.id)
     })
 
     it('### delete button is working properly', () => {

@@ -2,12 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { MemoryRouter } from 'react-router-dom'
 import { Post } from '../components/Post'
-import { configure, mount, shallow } from 'enzyme'
+import { mount, shallow } from 'enzyme'
 import toJson from 'enzyme-to-json'
 import Adapter from 'enzyme-adapter-react-15'
 import { store } from './mockStore'
-
-configure({ adapter: new Adapter() })
 
 const postData = { 
     author: 'thingtwo',

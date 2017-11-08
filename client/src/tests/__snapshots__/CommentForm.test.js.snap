@@ -1,6 +1,273 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`CommentForm Component testing #### validates creation form of a Comment 1`] = `
+exports[`CommentForm Component testing validates connected CommentForm 1`] = `
+<Connect(CommentForm)
+  parentId="8xf0y6ziyjabvozdd253nd"
+>
+  <CommentForm
+    comment={
+      Object {
+        "author": "thingtwo",
+        "body": "Hi there! I am a COMMENT.",
+        "deleted": false,
+        "id": "894tuq4ut84ut8v4t8wun89g",
+        "parentDeleted": false,
+        "parentId": "8xf0y6ziyjabvozdd253nd",
+        "timestamp": 1468166872634,
+        "voteScore": 6,
+      }
+    }
+    filters={
+      Object {
+        "category": "All",
+        "isCreatingComment": false,
+        "isCreatingPost": false,
+        "sortByComment": "score",
+        "sortByPost": "score",
+      }
+    }
+    parentId="8xf0y6ziyjabvozdd253nd"
+    saveComment={[Function]}
+    setFilters={[Function]}
+  >
+    <Segment>
+      <div
+        className="ui segment"
+      >
+        <Form
+          as="form"
+        >
+          <form
+            action={undefined}
+            className="ui form"
+            onSubmit={[Function]}
+          >
+            <FormTextArea
+              as={[Function]}
+              control={[Function]}
+              label="Body"
+              name="body"
+              onChange={[Function]}
+              placeholder="Insert your comment"
+              required={true}
+              value="Hi there! I am a COMMENT."
+            >
+              <FormField
+                control={[Function]}
+                label="Body"
+                name="body"
+                onChange={[Function]}
+                placeholder="Insert your comment"
+                required={true}
+                value="Hi there! I am a COMMENT."
+              >
+                <div
+                  className="required field"
+                >
+                  <label
+                    htmlFor={undefined}
+                    key="Body"
+                  >
+                    Body
+                  </label>
+                  <TextArea
+                    as="textarea"
+                    disabled={undefined}
+                    name="body"
+                    onChange={[Function]}
+                    placeholder="Insert your comment"
+                    required={true}
+                    rows={3}
+                    type={undefined}
+                    value="Hi there! I am a COMMENT."
+                  >
+                    <textarea
+                      disabled={undefined}
+                      name="body"
+                      onChange={[Function]}
+                      onInput={[Function]}
+                      placeholder="Insert your comment"
+                      required={true}
+                      rows={3}
+                      style={
+                        Object {
+                          "resize": "",
+                        }
+                      }
+                      type={undefined}
+                      value="Hi there! I am a COMMENT."
+                    />
+                  </TextArea>
+                </div>
+              </FormField>
+            </FormTextArea>
+            <FormGroup>
+              <div
+                className="fields"
+              >
+                <FormInput
+                  as={[Function]}
+                  control={[Function]}
+                  disabled={true}
+                  label="Author"
+                  name="author"
+                  onChange={[Function]}
+                  placeholder="Your name"
+                  required={false}
+                  value="thingtwo"
+                  width={3}
+                >
+                  <FormField
+                    control={[Function]}
+                    disabled={true}
+                    label="Author"
+                    name="author"
+                    onChange={[Function]}
+                    placeholder="Your name"
+                    required={false}
+                    value="thingtwo"
+                    width={3}
+                  >
+                    <div
+                      className="disabled three wide field"
+                    >
+                      <label
+                        htmlFor={undefined}
+                        key="Author"
+                      >
+                        Author
+                      </label>
+                      <Input
+                        disabled={true}
+                        name="author"
+                        onChange={[Function]}
+                        placeholder="Your name"
+                        required={false}
+                        type="text"
+                        value="thingtwo"
+                      >
+                        <div
+                          className="ui disabled input"
+                        >
+                          <input
+                            disabled={true}
+                            key="text"
+                            name="author"
+                            onChange={[Function]}
+                            placeholder="Your name"
+                            required={false}
+                            tabIndex={-1}
+                            type="text"
+                            value="thingtwo"
+                          />
+                        </div>
+                      </Input>
+                    </div>
+                  </FormField>
+                </FormInput>
+                <FormField
+                  width={9}
+                >
+                  <div
+                    className="nine wide field"
+                  />
+                </FormField>
+                <FormButton
+                  as={[Function]}
+                  className="btn-form"
+                  control={[Function]}
+                  fluid={true}
+                  onClick={[Function]}
+                  primary={true}
+                  width={2}
+                >
+                  <FormField
+                    className="btn-form"
+                    control={[Function]}
+                    fluid={true}
+                    onClick={[Function]}
+                    primary={true}
+                    width={2}
+                  >
+                    <div
+                      className="two wide field btn-form"
+                    >
+                      <Button
+                        as="button"
+                        disabled={undefined}
+                        fluid={true}
+                        onClick={[Function]}
+                        primary={true}
+                        required={undefined}
+                        type={undefined}
+                      >
+                        <button
+                          className="ui fluid primary button"
+                          disabled={undefined}
+                          onClick={[Function]}
+                          required={undefined}
+                          role="button"
+                          tabIndex={undefined}
+                          type={undefined}
+                        >
+                          Save
+                        </button>
+                      </Button>
+                    </div>
+                  </FormField>
+                </FormButton>
+                <FormButton
+                  as={[Function]}
+                  className="btn-form"
+                  control={[Function]}
+                  fluid={true}
+                  onClick={[Function]}
+                  width={2}
+                >
+                  <FormField
+                    className="btn-form"
+                    control={[Function]}
+                    fluid={true}
+                    onClick={[Function]}
+                    width={2}
+                  >
+                    <div
+                      className="two wide field btn-form"
+                    >
+                      <Button
+                        as="button"
+                        disabled={undefined}
+                        fluid={true}
+                        onClick={[Function]}
+                        required={undefined}
+                        type={undefined}
+                      >
+                        <button
+                          className="ui fluid button"
+                          disabled={undefined}
+                          onClick={[Function]}
+                          required={undefined}
+                          role="button"
+                          tabIndex={undefined}
+                          type={undefined}
+                        >
+                          Cancel
+                        </button>
+                      </Button>
+                    </div>
+                  </FormField>
+                </FormButton>
+              </div>
+            </FormGroup>
+          </form>
+        </Form>
+      </div>
+    </Segment>
+  </CommentForm>
+</Connect(CommentForm)>
+`;
+
+exports[`CommentForm Component testing validates creation form of a Comment 1`] = `
 <CommentForm
   parentId="8xf0y6ziyjabvozdd253nd"
   saveComment={[Function]}
@@ -242,7 +509,261 @@ exports[`CommentForm Component testing #### validates creation form of a Comment
 </CommentForm>
 `;
 
-exports[`CommentForm Component testing #### validates edition form of a Comment 1`] = `
+exports[`CommentForm Component testing validates creation turning into edition 1`] = `
+<CommentForm
+  comment={
+    Object {
+      "author": "thingtwo",
+      "body": "Hi there! I am a COMMENT.",
+      "deleted": false,
+      "id": "894tuq4ut84ut8v4t8wun89g",
+      "parentDeleted": false,
+      "parentId": "8xf0y6ziyjabvozdd253nd",
+      "timestamp": 1468166872634,
+      "voteScore": 6,
+    }
+  }
+  parentId="8xf0y6ziyjabvozdd253nd"
+  saveComment={[Function]}
+  setFilters={[Function]}
+>
+  <Segment>
+    <div
+      className="ui segment"
+    >
+      <Form
+        as="form"
+      >
+        <form
+          action={undefined}
+          className="ui form"
+          onSubmit={[Function]}
+        >
+          <FormTextArea
+            as={[Function]}
+            control={[Function]}
+            label="Body"
+            name="body"
+            onChange={[Function]}
+            placeholder="Insert your comment"
+            required={true}
+            value="Hi there! I am a COMMENT."
+          >
+            <FormField
+              control={[Function]}
+              label="Body"
+              name="body"
+              onChange={[Function]}
+              placeholder="Insert your comment"
+              required={true}
+              value="Hi there! I am a COMMENT."
+            >
+              <div
+                className="required field"
+              >
+                <label
+                  htmlFor={undefined}
+                  key="Body"
+                >
+                  Body
+                </label>
+                <TextArea
+                  as="textarea"
+                  disabled={undefined}
+                  name="body"
+                  onChange={[Function]}
+                  placeholder="Insert your comment"
+                  required={true}
+                  rows={3}
+                  type={undefined}
+                  value="Hi there! I am a COMMENT."
+                >
+                  <textarea
+                    disabled={undefined}
+                    name="body"
+                    onChange={[Function]}
+                    onInput={[Function]}
+                    placeholder="Insert your comment"
+                    required={true}
+                    rows={3}
+                    style={
+                      Object {
+                        "resize": "",
+                      }
+                    }
+                    type={undefined}
+                    value="Hi there! I am a COMMENT."
+                  />
+                </TextArea>
+              </div>
+            </FormField>
+          </FormTextArea>
+          <FormGroup>
+            <div
+              className="fields"
+            >
+              <FormInput
+                as={[Function]}
+                control={[Function]}
+                disabled={true}
+                label="Author"
+                name="author"
+                onChange={[Function]}
+                placeholder="Your name"
+                required={false}
+                value="thingtwo"
+                width={3}
+              >
+                <FormField
+                  control={[Function]}
+                  disabled={true}
+                  label="Author"
+                  name="author"
+                  onChange={[Function]}
+                  placeholder="Your name"
+                  required={false}
+                  value="thingtwo"
+                  width={3}
+                >
+                  <div
+                    className="disabled three wide field"
+                  >
+                    <label
+                      htmlFor={undefined}
+                      key="Author"
+                    >
+                      Author
+                    </label>
+                    <Input
+                      disabled={true}
+                      name="author"
+                      onChange={[Function]}
+                      placeholder="Your name"
+                      required={false}
+                      type="text"
+                      value="thingtwo"
+                    >
+                      <div
+                        className="ui disabled input"
+                      >
+                        <input
+                          disabled={true}
+                          key="text"
+                          name="author"
+                          onChange={[Function]}
+                          placeholder="Your name"
+                          required={false}
+                          tabIndex={-1}
+                          type="text"
+                          value="thingtwo"
+                        />
+                      </div>
+                    </Input>
+                  </div>
+                </FormField>
+              </FormInput>
+              <FormField
+                width={9}
+              >
+                <div
+                  className="nine wide field"
+                />
+              </FormField>
+              <FormButton
+                as={[Function]}
+                className="btn-form"
+                control={[Function]}
+                fluid={true}
+                onClick={[Function]}
+                primary={true}
+                width={2}
+              >
+                <FormField
+                  className="btn-form"
+                  control={[Function]}
+                  fluid={true}
+                  onClick={[Function]}
+                  primary={true}
+                  width={2}
+                >
+                  <div
+                    className="two wide field btn-form"
+                  >
+                    <Button
+                      as="button"
+                      disabled={undefined}
+                      fluid={true}
+                      onClick={[Function]}
+                      primary={true}
+                      required={undefined}
+                      type={undefined}
+                    >
+                      <button
+                        className="ui fluid primary button"
+                        disabled={undefined}
+                        onClick={[Function]}
+                        required={undefined}
+                        role="button"
+                        tabIndex={undefined}
+                        type={undefined}
+                      >
+                        Save
+                      </button>
+                    </Button>
+                  </div>
+                </FormField>
+              </FormButton>
+              <FormButton
+                as={[Function]}
+                className="btn-form"
+                control={[Function]}
+                fluid={true}
+                onClick={[Function]}
+                width={2}
+              >
+                <FormField
+                  className="btn-form"
+                  control={[Function]}
+                  fluid={true}
+                  onClick={[Function]}
+                  width={2}
+                >
+                  <div
+                    className="two wide field btn-form"
+                  >
+                    <Button
+                      as="button"
+                      disabled={undefined}
+                      fluid={true}
+                      onClick={[Function]}
+                      required={undefined}
+                      type={undefined}
+                    >
+                      <button
+                        className="ui fluid button"
+                        disabled={undefined}
+                        onClick={[Function]}
+                        required={undefined}
+                        role="button"
+                        tabIndex={undefined}
+                        type={undefined}
+                      >
+                        Cancel
+                      </button>
+                    </Button>
+                  </div>
+                </FormField>
+              </FormButton>
+            </div>
+          </FormGroup>
+        </form>
+      </Form>
+    </div>
+  </Segment>
+</CommentForm>
+`;
+
+exports[`CommentForm Component testing validates edition form of a Comment 1`] = `
 <CommentForm
   comment={
     Object {

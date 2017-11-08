@@ -147,7 +147,6 @@ export function saveComment(comment) {
                 comment
             }))
         ).catch(error => {
-            console.log(error)
             dispatch(({
             type: SAVE_COMMENT,
             error: 'Error contacting server'
@@ -194,7 +193,7 @@ export function vote(id, type, vote) {
     }
 }
 
-export function editComment(postId, commentId) {
+export function editComment(commentId) {
     return function (dispatch, getState) {
         Promise.resolve(dispatch(({
             type: EDIT_COMMENT,

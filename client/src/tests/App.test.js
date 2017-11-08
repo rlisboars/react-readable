@@ -1,11 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from '../App';
-import { configure, shallow } from 'enzyme'
+import { shallow } from 'enzyme'
 import toJson from 'enzyme-to-json'
 import Adapter from 'enzyme-adapter-react-15'
-
-configure({ adapter: new Adapter() })
 
 describe('App Component testing', () => {
     it('##### renders without crashing', () => {

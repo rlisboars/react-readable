@@ -18,7 +18,7 @@ export class Comment extends Component {
                         <Grid.Column width={1}>
                             <Button.Group size='mini' basic floated='right'>
                                 <Button icon='write' 
-                                    onClick={(evt) => this.props.editComment(data.parentId, data.id)}
+                                    onClick={(evt) => this.props.editComment(data.id)}
                                     compact />
                                 <Button icon='trash' 
                                     onClick={(evt) => this.props.deleteContent(data.id, 'COMMENT')} 

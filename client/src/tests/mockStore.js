@@ -1,6 +1,7 @@
 import configureStore from 'redux-mock-store'
+import thunk from 'redux-thunk'
 
-const testState = {
+export const testState = {
     filters: {
         category: "All",
         sortByPost: "score",
@@ -65,6 +66,14 @@ const testState = {
         editingComment: null,
     }
 }
-const mockStore = configureStore()
+
+const mockStore = configureStore([thunk])
 export const store = mockStore(testState)
+export const errorStore = mockStore({ ...testState, posts: { error: 'Error message' } })
+
+export function createStoreWithState(newState) {
+    const mockSt = configureStore([thunk])(newState)
+    return mockSt
+}
+
 

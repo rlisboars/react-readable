@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom'
 import { connect } from 'react-redux'
 import { getPost } from '../actions'
 
-class CommentsList extends Component {
+export class CommentsList extends Component {
     componentDidMount() {
         this.props.getPost(this.props.match.params.id)
     }
@@ -53,7 +53,7 @@ class CommentsList extends Component {
                 case 'score':
                     postComments.sort((prev, curr) => curr.voteScore - prev.voteScore)
                     break
-                default: 
+                default:
                     break
             }
         }

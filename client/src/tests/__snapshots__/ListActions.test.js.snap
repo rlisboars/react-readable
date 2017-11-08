@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListActions Component testing #### snpashot of ListActions (comment) with "recent" sort 1`] = `
+<ListActions
+  comment={true}
+  filters={
+    Object {
+      "sortByComment": "recent",
+    }
+  }
+  setFilters={[Function]}
+>
+  <Menu
+    className="sub-menu"
+    secondary={true}
+  >
+    <div
+      className="ui secondary sub-menu menu"
+    >
+      <MenuItem
+        header={true}
+      >
+        <div
+          className="header item"
+          onClick={[Function]}
+        >
+          Sort By:
+        </div>
+      </MenuItem>
+      <MenuItem
+        active={false}
+        name="score"
+        onClick={[Function]}
+      >
+        <a
+          className="item"
+          onClick={[Function]}
+        >
+          High Score
+        </a>
+      </MenuItem>
+      <MenuItem
+        active={true}
+        name="recent"
+        onClick={[Function]}
+      >
+        <a
+          className="active item"
+          onClick={[Function]}
+        >
+          Most Recent
+        </a>
+      </MenuItem>
+      <MenuItem
+        position="right"
+      >
+        <div
+          className="right item"
+          onClick={[Function]}
+        >
+          <Button
+            as="button"
+            content="Create Comment"
+            icon="plus"
+            labelPosition="left"
+            onClick={[Function]}
+          >
+            <button
+              className="ui icon left labeled button"
+              disabled={undefined}
+              onClick={[Function]}
+              role="button"
+              tabIndex={undefined}
+            >
+              <Icon
+                as="i"
+                key="plus"
+                name="plus"
+              >
+                <i
+                  aria-hidden="true"
+                  className="plus icon"
+                />
+              </Icon>
+              Create Comment
+            </button>
+          </Button>
+        </div>
+      </MenuItem>
+    </div>
+  </Menu>
+</ListActions>
+`;
+
+exports[`ListActions Component testing #### snpashot of ListActions (post) with "score" sort 1`] = `
+<ListActions
+  filters={
+    Object {
+      "category": "All",
+      "isCreatingComment": false,
+      "isCreatingPost": false,
+      "sortByComment": "score",
+      "sortByPost": "score",
+    }
+  }
+  setFilters={[Function]}
+>
+  <Menu
+    className="sub-menu"
+    secondary={true}
+  >
+    <div
+      className="ui secondary sub-menu menu"
+    >
+      <MenuItem
+        header={true}
+      >
+        <div
+          className="header item"
+          onClick={[Function]}
+        >
+          Sort By:
+        </div>
+      </MenuItem>
+      <MenuItem
+        active={true}
+        name="score"
+        onClick={[Function]}
+      >
+        <a
+          className="active item"
+          onClick={[Function]}
+        >
+          High Score
+        </a>
+      </MenuItem>
+      <MenuItem
+        active={false}
+        name="recent"
+        onClick={[Function]}
+      >
+        <a
+          className="item"
+          onClick={[Function]}
+        >
+          Most Recent
+        </a>
+      </MenuItem>
+      <MenuItem
+        position="right"
+      >
+        <div
+          className="right item"
+          onClick={[Function]}
+        >
+          <Button
+            as="button"
+            content="Create Post"
+            icon="plus"
+            labelPosition="left"
+            onClick={[Function]}
+          >
+            <button
+              className="ui icon left labeled button"
+              disabled={undefined}
+              onClick={[Function]}
+              role="button"
+              tabIndex={undefined}
+            >
+              <Icon
+                as="i"
+                key="plus"
+                name="plus"
+              >
+                <i
+                  aria-hidden="true"
+                  className="plus icon"
+                />
+              </Icon>
+              Create Post
+            </button>
+          </Button>
+        </div>
+      </MenuItem>
+    </div>
+  </Menu>
+</ListActions>
+`;

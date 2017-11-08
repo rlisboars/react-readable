@@ -8,7 +8,7 @@ import { getPosts } from '../actions'
 import { HashLoader } from 'react-spinners'
 import { Message } from 'semantic-ui-react'
 
-class PostsList extends Component {
+export class PostsList extends Component {
     componentDidMount() {
         this.props.getPosts()
     }

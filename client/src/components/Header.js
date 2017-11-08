@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 import { setFilters, getCategories } from '../actions'
 import { Link } from 'react-router-dom'
 
-class Header extends Component {
+export class Header extends Component {
 	componentDidMount() {
 		this.props.getCategories()
 	}

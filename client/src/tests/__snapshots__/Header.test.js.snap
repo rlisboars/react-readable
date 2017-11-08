@@ -1,0 +1,678 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostForm Component testing #### snapshot of enabled header 1`] = `
+<Header
+  categories={
+    Array [
+      Object {
+        "name": "All",
+        "path": "",
+      },
+      Object {
+        "name": "react",
+        "path": "react",
+      },
+      Object {
+        "name": "redux",
+        "path": "redux",
+      },
+      Object {
+        "name": "udacity",
+        "path": "udacity",
+      },
+    ]
+  }
+  filters={
+    Object {
+      "category": "react",
+      "isCreatingComment": false,
+      "isCreatingPost": false,
+      "sortByComment": "score",
+      "sortByPost": "score",
+    }
+  }
+  getCategories={[Function]}
+  history={Array []}
+  selected={
+    Object {
+      "name": "All",
+      "path": "",
+    }
+  }
+  setFilters={[Function]}
+>
+  <Menu
+    borderless={true}
+  >
+    <div
+      className="ui borderless menu"
+    >
+      <MenuItem>
+        <div
+          className="item"
+          onClick={[Function]}
+        >
+          <Link
+            className="logo"
+            replace={false}
+            to="/"
+          >
+            <a
+              className="logo"
+              href="/"
+              onClick={[Function]}
+            >
+              Leitura
+            </a>
+          </Link>
+        </div>
+      </MenuItem>
+      <MenuItem>
+        <div
+          className="item"
+          onClick={[Function]}
+        >
+          <span
+            className="category-select-label"
+          >
+            Category:
+          </span>
+          <Select
+            className="category-select"
+            disabled={false}
+            onChange={[Function]}
+            options={
+              Array [
+                Object {
+                  "key": 0,
+                  "text": "All",
+                  "value": "All",
+                },
+                Object {
+                  "key": 1,
+                  "text": "react",
+                  "value": "react",
+                },
+                Object {
+                  "key": 2,
+                  "text": "redux",
+                  "value": "redux",
+                },
+                Object {
+                  "key": 3,
+                  "text": "udacity",
+                  "value": "udacity",
+                },
+              ]
+            }
+            placeholder="Choose a category"
+            value="react"
+          >
+            <Dropdown
+              additionLabel="Add "
+              additionPosition="top"
+              className="category-select"
+              closeOnBlur={true}
+              disabled={false}
+              icon="dropdown"
+              minCharacters={1}
+              noResultsMessage="No results found."
+              onChange={[Function]}
+              openOnFocus={true}
+              options={
+                Array [
+                  Object {
+                    "key": 0,
+                    "text": "All",
+                    "value": "All",
+                  },
+                  Object {
+                    "key": 1,
+                    "text": "react",
+                    "value": "react",
+                  },
+                  Object {
+                    "key": 2,
+                    "text": "redux",
+                    "value": "redux",
+                  },
+                  Object {
+                    "key": 3,
+                    "text": "udacity",
+                    "value": "udacity",
+                  },
+                ]
+              }
+              placeholder="Choose a category"
+              renderLabel={[Function]}
+              searchInput="text"
+              selectOnBlur={true}
+              selectOnNavigation={true}
+              selection={true}
+              value="react"
+            >
+              <div
+                aria-busy={undefined}
+                aria-disabled={false}
+                aria-expanded={false}
+                aria-multiselectable={undefined}
+                className="ui selection dropdown category-select"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onMouseDown={[Function]}
+                role="listbox"
+                tabIndex={0}
+              >
+                <div
+                  aria-live="polite"
+                  className="text"
+                  role="alert"
+                >
+                  react
+                </div>
+                <Icon
+                  as="i"
+                  key="dropdown"
+                  name="dropdown"
+                  onClick={[Function]}
+                >
+                  <i
+                    aria-hidden="true"
+                    className="dropdown icon"
+                    onClick={[Function]}
+                  />
+                </Icon>
+                <DropdownMenu
+                  className=""
+                >
+                  <div
+                    className="menu transition"
+                  >
+                    <DropdownItem
+                      active={false}
+                      key="0"
+                      onClick={[Function]}
+                      selected={false}
+                      style={
+                        Object {
+                          "pointerEvents": "all",
+                        }
+                      }
+                      text="All"
+                      value="All"
+                    >
+                      <div
+                        aria-checked={false}
+                        aria-disabled={undefined}
+                        aria-selected={false}
+                        className="item"
+                        onClick={[Function]}
+                        role="option"
+                        style={
+                          Object {
+                            "pointerEvents": "all",
+                          }
+                        }
+                      >
+                        <span
+                          className="text"
+                          key="All"
+                        >
+                          All
+                        </span>
+                      </div>
+                    </DropdownItem>
+                    <DropdownItem
+                      active={true}
+                      key="1"
+                      onClick={[Function]}
+                      selected={true}
+                      style={
+                        Object {
+                          "pointerEvents": "all",
+                        }
+                      }
+                      text="react"
+                      value="react"
+                    >
+                      <div
+                        aria-checked={true}
+                        aria-disabled={undefined}
+                        aria-selected={true}
+                        className="active selected item"
+                        onClick={[Function]}
+                        role="option"
+                        style={
+                          Object {
+                            "pointerEvents": "all",
+                          }
+                        }
+                      >
+                        <span
+                          className="text"
+                          key="react"
+                        >
+                          react
+                        </span>
+                      </div>
+                    </DropdownItem>
+                    <DropdownItem
+                      active={false}
+                      key="2"
+                      onClick={[Function]}
+                      selected={false}
+                      style={
+                        Object {
+                          "pointerEvents": "all",
+                        }
+                      }
+                      text="redux"
+                      value="redux"
+                    >
+                      <div
+                        aria-checked={false}
+                        aria-disabled={undefined}
+                        aria-selected={false}
+                        className="item"
+                        onClick={[Function]}
+                        role="option"
+                        style={
+                          Object {
+                            "pointerEvents": "all",
+                          }
+                        }
+                      >
+                        <span
+                          className="text"
+                          key="redux"
+                        >
+                          redux
+                        </span>
+                      </div>
+                    </DropdownItem>
+                    <DropdownItem
+                      active={false}
+                      key="3"
+                      onClick={[Function]}
+                      selected={false}
+                      style={
+                        Object {
+                          "pointerEvents": "all",
+                        }
+                      }
+                      text="udacity"
+                      value="udacity"
+                    >
+                      <div
+                        aria-checked={false}
+                        aria-disabled={undefined}
+                        aria-selected={false}
+                        className="item"
+                        onClick={[Function]}
+                        role="option"
+                        style={
+                          Object {
+                            "pointerEvents": "all",
+                          }
+                        }
+                      >
+                        <span
+                          className="text"
+                          key="udacity"
+                        >
+                          udacity
+                        </span>
+                      </div>
+                    </DropdownItem>
+                  </div>
+                </DropdownMenu>
+              </div>
+            </Dropdown>
+          </Select>
+        </div>
+      </MenuItem>
+    </div>
+  </Menu>
+</Header>
+`;
+
+exports[`PostForm Component testing #### snpashot of disabled header 1`] = `
+<Header
+  categories={
+    Array [
+      Object {
+        "name": "All",
+        "path": "",
+      },
+      Object {
+        "name": "react",
+        "path": "react",
+      },
+      Object {
+        "name": "redux",
+        "path": "redux",
+      },
+      Object {
+        "name": "udacity",
+        "path": "udacity",
+      },
+    ]
+  }
+  disabled={true}
+  filters={
+    Object {
+      "category": "All",
+      "isCreatingComment": false,
+      "isCreatingPost": false,
+      "sortByComment": "score",
+      "sortByPost": "score",
+    }
+  }
+  getCategories={[Function]}
+  history={Array []}
+  selected={
+    Object {
+      "name": "react",
+      "path": "react",
+    }
+  }
+  setFilters={[Function]}
+>
+  <Menu
+    borderless={true}
+  >
+    <div
+      className="ui borderless menu"
+    >
+      <MenuItem>
+        <div
+          className="item"
+          onClick={[Function]}
+        >
+          <Link
+            className="logo"
+            replace={false}
+            to="/"
+          >
+            <a
+              className="logo"
+              href="/"
+              onClick={[Function]}
+            >
+              Leitura
+            </a>
+          </Link>
+        </div>
+      </MenuItem>
+      <MenuItem>
+        <div
+          className="item"
+          onClick={[Function]}
+        >
+          <span
+            className="category-select-label"
+          >
+            Category:
+          </span>
+          <Select
+            className="category-select"
+            disabled={true}
+            onChange={[Function]}
+            options={
+              Array [
+                Object {
+                  "key": 0,
+                  "text": "All",
+                  "value": "All",
+                },
+                Object {
+                  "key": 1,
+                  "text": "react",
+                  "value": "react",
+                },
+                Object {
+                  "key": 2,
+                  "text": "redux",
+                  "value": "redux",
+                },
+                Object {
+                  "key": 3,
+                  "text": "udacity",
+                  "value": "udacity",
+                },
+              ]
+            }
+            placeholder="Choose a category"
+            value="All"
+          >
+            <Dropdown
+              additionLabel="Add "
+              additionPosition="top"
+              className="category-select"
+              closeOnBlur={true}
+              disabled={true}
+              icon="dropdown"
+              minCharacters={1}
+              noResultsMessage="No results found."
+              onChange={[Function]}
+              openOnFocus={true}
+              options={
+                Array [
+                  Object {
+                    "key": 0,
+                    "text": "All",
+                    "value": "All",
+                  },
+                  Object {
+                    "key": 1,
+                    "text": "react",
+                    "value": "react",
+                  },
+                  Object {
+                    "key": 2,
+                    "text": "redux",
+                    "value": "redux",
+                  },
+                  Object {
+                    "key": 3,
+                    "text": "udacity",
+                    "value": "udacity",
+                  },
+                ]
+              }
+              placeholder="Choose a category"
+              renderLabel={[Function]}
+              searchInput="text"
+              selectOnBlur={true}
+              selectOnNavigation={true}
+              selection={true}
+              value="All"
+            >
+              <div
+                aria-busy={undefined}
+                aria-disabled={true}
+                aria-expanded={false}
+                aria-multiselectable={undefined}
+                className="ui disabled selection dropdown category-select"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onMouseDown={[Function]}
+                role="listbox"
+                tabIndex={-1}
+              >
+                <div
+                  aria-live="polite"
+                  className="text"
+                  role="alert"
+                >
+                  All
+                </div>
+                <Icon
+                  as="i"
+                  key="dropdown"
+                  name="dropdown"
+                  onClick={[Function]}
+                >
+                  <i
+                    aria-hidden="true"
+                    className="dropdown icon"
+                    onClick={[Function]}
+                  />
+                </Icon>
+                <DropdownMenu
+                  className=""
+                >
+                  <div
+                    className="menu transition"
+                  >
+                    <DropdownItem
+                      active={true}
+                      key="0"
+                      onClick={[Function]}
+                      selected={true}
+                      style={
+                        Object {
+                          "pointerEvents": "all",
+                        }
+                      }
+                      text="All"
+                      value="All"
+                    >
+                      <div
+                        aria-checked={true}
+                        aria-disabled={undefined}
+                        aria-selected={true}
+                        className="active selected item"
+                        onClick={[Function]}
+                        role="option"
+                        style={
+                          Object {
+                            "pointerEvents": "all",
+                          }
+                        }
+                      >
+                        <span
+                          className="text"
+                          key="All"
+                        >
+                          All
+                        </span>
+                      </div>
+                    </DropdownItem>
+                    <DropdownItem
+                      active={false}
+                      key="1"
+                      onClick={[Function]}
+                      selected={false}
+                      style={
+                        Object {
+                          "pointerEvents": "all",
+                        }
+                      }
+                      text="react"
+                      value="react"
+                    >
+                      <div
+                        aria-checked={false}
+                        aria-disabled={undefined}
+                        aria-selected={false}
+                        className="item"
+                        onClick={[Function]}
+                        role="option"
+                        style={
+                          Object {
+                            "pointerEvents": "all",
+                          }
+                        }
+                      >
+                        <span
+                          className="text"
+                          key="react"
+                        >
+                          react
+                        </span>
+                      </div>
+                    </DropdownItem>
+                    <DropdownItem
+                      active={false}
+                      key="2"
+                      onClick={[Function]}
+                      selected={false}
+                      style={
+                        Object {
+                          "pointerEvents": "all",
+                        }
+                      }
+                      text="redux"
+                      value="redux"
+                    >
+                      <div
+                        aria-checked={false}
+                        aria-disabled={undefined}
+                        aria-selected={false}
+                        className="item"
+                        onClick={[Function]}
+                        role="option"
+                        style={
+                          Object {
+                            "pointerEvents": "all",
+                          }
+                        }
+                      >
+                        <span
+                          className="text"
+                          key="redux"
+                        >
+                          redux
+                        </span>
+                      </div>
+                    </DropdownItem>
+                    <DropdownItem
+                      active={false}
+                      key="3"
+                      onClick={[Function]}
+                      selected={false}
+                      style={
+                        Object {
+                          "pointerEvents": "all",
+                        }
+                      }
+                      text="udacity"
+                      value="udacity"
+                    >
+                      <div
+                        aria-checked={false}
+                        aria-disabled={undefined}
+                        aria-selected={false}
+                        className="item"
+                        onClick={[Function]}
+                        role="option"
+                        style={
+                          Object {
+                            "pointerEvents": "all",
+                          }
+                        }
+                      >
+                        <span
+                          className="text"
+                          key="udacity"
+                        >
+                          udacity
+                        </span>
+                      </div>
+                    </DropdownItem>
+                  </div>
+                </DropdownMenu>
+              </div>
+            </Dropdown>
+          </Select>
+        </div>
+      </MenuItem>
+    </div>
+  </Menu>
+</Header>
+`;

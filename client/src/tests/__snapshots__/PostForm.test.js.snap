@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`PostForm Component testing #### validates creation form of a Comment 1`] = `
+exports[`PostForm Component testing validates creation form of a Comment 1`] = `
 <PostForm
   categories={
     Array [
@@ -612,7 +612,631 @@ exports[`PostForm Component testing #### validates creation form of a Comment 1`
 </PostForm>
 `;
 
-exports[`PostForm Component testing #### validates edition form of a Post 1`] = `
+exports[`PostForm Component testing validates creation turning into edition 1`] = `
+<PostForm
+  categories={
+    Array [
+      Object {
+        "name": "All",
+        "path": "",
+      },
+      Object {
+        "name": "react",
+        "path": "react",
+      },
+      Object {
+        "name": "redux",
+        "path": "redux",
+      },
+      Object {
+        "name": "udacity",
+        "path": "udacity",
+      },
+    ]
+  }
+  filters={
+    Object {
+      "category": "react",
+      "isCreatingComment": false,
+      "isCreatingPost": false,
+      "sortByComment": "score",
+      "sortByPost": "score",
+    }
+  }
+  getPost={[Function]}
+  post={
+    Object {
+      "author": "thingtwo",
+      "body": "Everyone says so after all.",
+      "category": "react",
+      "deleted": false,
+      "id": "8xf0y6ziyjabvozdd253nd",
+      "timestamp": 1467166872634,
+      "title": "Udacity is the best place to learn React",
+      "voteScore": 6,
+    }
+  }
+  savePost={[Function]}
+  setFilters={[Function]}
+>
+  <Segment
+    raised={true}
+  >
+    <div
+      className="ui raised segment"
+    >
+      <Form
+        as="form"
+      >
+        <form
+          action={undefined}
+          className="ui form"
+          onSubmit={[Function]}
+        >
+          <FormInput
+            as={[Function]}
+            control={[Function]}
+            label="Title"
+            name="title"
+            onChange={[Function]}
+            placeholder="Post Title"
+            required={true}
+            value="Udacity is the best place to learn React"
+          >
+            <FormField
+              control={[Function]}
+              label="Title"
+              name="title"
+              onChange={[Function]}
+              placeholder="Post Title"
+              required={true}
+              value="Udacity is the best place to learn React"
+            >
+              <div
+                className="required field"
+              >
+                <label
+                  htmlFor={undefined}
+                  key="Title"
+                >
+                  Title
+                </label>
+                <Input
+                  disabled={undefined}
+                  name="title"
+                  onChange={[Function]}
+                  placeholder="Post Title"
+                  required={true}
+                  type="text"
+                  value="Udacity is the best place to learn React"
+                >
+                  <div
+                    className="ui input"
+                  >
+                    <input
+                      disabled={undefined}
+                      key="text"
+                      name="title"
+                      onChange={[Function]}
+                      placeholder="Post Title"
+                      required={true}
+                      tabIndex={undefined}
+                      type="text"
+                      value="Udacity is the best place to learn React"
+                    />
+                  </div>
+                </Input>
+              </div>
+            </FormField>
+          </FormInput>
+          <FormTextArea
+            as={[Function]}
+            control={[Function]}
+            label="Body"
+            name="body"
+            onChange={[Function]}
+            placeholder="Post Content"
+            required={true}
+            value="Everyone says so after all."
+          >
+            <FormField
+              control={[Function]}
+              label="Body"
+              name="body"
+              onChange={[Function]}
+              placeholder="Post Content"
+              required={true}
+              value="Everyone says so after all."
+            >
+              <div
+                className="required field"
+              >
+                <label
+                  htmlFor={undefined}
+                  key="Body"
+                >
+                  Body
+                </label>
+                <TextArea
+                  as="textarea"
+                  disabled={undefined}
+                  name="body"
+                  onChange={[Function]}
+                  placeholder="Post Content"
+                  required={true}
+                  rows={3}
+                  type={undefined}
+                  value="Everyone says so after all."
+                >
+                  <textarea
+                    disabled={undefined}
+                    name="body"
+                    onChange={[Function]}
+                    onInput={[Function]}
+                    placeholder="Post Content"
+                    required={true}
+                    rows={3}
+                    style={
+                      Object {
+                        "resize": "",
+                      }
+                    }
+                    type={undefined}
+                    value="Everyone says so after all."
+                  />
+                </TextArea>
+              </div>
+            </FormField>
+          </FormTextArea>
+          <FormGroup>
+            <div
+              className="fields"
+            >
+              <FormInput
+                as={[Function]}
+                control={[Function]}
+                disabled={true}
+                label="Author"
+                name="author"
+                onChange={[Function]}
+                placeholder="Your name"
+                required={false}
+                value="thingtwo"
+                width={3}
+              >
+                <FormField
+                  control={[Function]}
+                  disabled={true}
+                  label="Author"
+                  name="author"
+                  onChange={[Function]}
+                  placeholder="Your name"
+                  required={false}
+                  value="thingtwo"
+                  width={3}
+                >
+                  <div
+                    className="disabled three wide field"
+                  >
+                    <label
+                      htmlFor={undefined}
+                      key="Author"
+                    >
+                      Author
+                    </label>
+                    <Input
+                      disabled={true}
+                      name="author"
+                      onChange={[Function]}
+                      placeholder="Your name"
+                      required={false}
+                      type="text"
+                      value="thingtwo"
+                    >
+                      <div
+                        className="ui disabled input"
+                      >
+                        <input
+                          disabled={true}
+                          key="text"
+                          name="author"
+                          onChange={[Function]}
+                          placeholder="Your name"
+                          required={false}
+                          tabIndex={-1}
+                          type="text"
+                          value="thingtwo"
+                        />
+                      </div>
+                    </Input>
+                  </div>
+                </FormField>
+              </FormInput>
+              <FormSelect
+                as={[Function]}
+                className="category-select"
+                control={[Function]}
+                disabled={true}
+                label="Category"
+                name="category"
+                onChange={[Function]}
+                options={
+                  Array [
+                    Object {
+                      "key": 0,
+                      "text": "react",
+                      "value": "react",
+                    },
+                    Object {
+                      "key": 1,
+                      "text": "redux",
+                      "value": "redux",
+                    },
+                    Object {
+                      "key": 2,
+                      "text": "udacity",
+                      "value": "udacity",
+                    },
+                  ]
+                }
+                placeholder="Select a category"
+                required={false}
+                value="react"
+              >
+                <FormField
+                  className="category-select"
+                  control={[Function]}
+                  disabled={true}
+                  label="Category"
+                  name="category"
+                  onChange={[Function]}
+                  options={
+                    Array [
+                      Object {
+                        "key": 0,
+                        "text": "react",
+                        "value": "react",
+                      },
+                      Object {
+                        "key": 1,
+                        "text": "redux",
+                        "value": "redux",
+                      },
+                      Object {
+                        "key": 2,
+                        "text": "udacity",
+                        "value": "udacity",
+                      },
+                    ]
+                  }
+                  placeholder="Select a category"
+                  required={false}
+                  value="react"
+                >
+                  <div
+                    className="disabled field category-select"
+                  >
+                    <label
+                      htmlFor={undefined}
+                      key="Category"
+                    >
+                      Category
+                    </label>
+                    <Select
+                      disabled={true}
+                      name="category"
+                      onChange={[Function]}
+                      options={
+                        Array [
+                          Object {
+                            "key": 0,
+                            "text": "react",
+                            "value": "react",
+                          },
+                          Object {
+                            "key": 1,
+                            "text": "redux",
+                            "value": "redux",
+                          },
+                          Object {
+                            "key": 2,
+                            "text": "udacity",
+                            "value": "udacity",
+                          },
+                        ]
+                      }
+                      placeholder="Select a category"
+                      required={false}
+                      type={undefined}
+                      value="react"
+                    >
+                      <Dropdown
+                        additionLabel="Add "
+                        additionPosition="top"
+                        closeOnBlur={true}
+                        disabled={true}
+                        icon="dropdown"
+                        minCharacters={1}
+                        name="category"
+                        noResultsMessage="No results found."
+                        onChange={[Function]}
+                        openOnFocus={true}
+                        options={
+                          Array [
+                            Object {
+                              "key": 0,
+                              "text": "react",
+                              "value": "react",
+                            },
+                            Object {
+                              "key": 1,
+                              "text": "redux",
+                              "value": "redux",
+                            },
+                            Object {
+                              "key": 2,
+                              "text": "udacity",
+                              "value": "udacity",
+                            },
+                          ]
+                        }
+                        placeholder="Select a category"
+                        renderLabel={[Function]}
+                        required={false}
+                        searchInput="text"
+                        selectOnBlur={true}
+                        selectOnNavigation={true}
+                        selection={true}
+                        type={undefined}
+                        value="react"
+                      >
+                        <div
+                          aria-busy={undefined}
+                          aria-disabled={true}
+                          aria-expanded={false}
+                          aria-multiselectable={undefined}
+                          className="ui disabled selection dropdown"
+                          name="category"
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onClick={[Function]}
+                          onFocus={[Function]}
+                          onMouseDown={[Function]}
+                          required={false}
+                          role="listbox"
+                          tabIndex={-1}
+                          type={undefined}
+                        >
+                          <div
+                            aria-live="polite"
+                            className="text"
+                            role="alert"
+                          >
+                            react
+                          </div>
+                          <Icon
+                            as="i"
+                            key="dropdown"
+                            name="dropdown"
+                            onClick={[Function]}
+                          >
+                            <i
+                              aria-hidden="true"
+                              className="dropdown icon"
+                              onClick={[Function]}
+                            />
+                          </Icon>
+                          <DropdownMenu
+                            className=""
+                          >
+                            <div
+                              className="menu transition"
+                            >
+                              <DropdownItem
+                                active={true}
+                                key="0"
+                                onClick={[Function]}
+                                selected={true}
+                                style={
+                                  Object {
+                                    "pointerEvents": "all",
+                                  }
+                                }
+                                text="react"
+                                value="react"
+                              >
+                                <div
+                                  aria-checked={true}
+                                  aria-disabled={undefined}
+                                  aria-selected={true}
+                                  className="active selected item"
+                                  onClick={[Function]}
+                                  role="option"
+                                  style={
+                                    Object {
+                                      "pointerEvents": "all",
+                                    }
+                                  }
+                                >
+                                  <span
+                                    className="text"
+                                    key="react"
+                                  >
+                                    react
+                                  </span>
+                                </div>
+                              </DropdownItem>
+                              <DropdownItem
+                                active={false}
+                                key="1"
+                                onClick={[Function]}
+                                selected={false}
+                                style={
+                                  Object {
+                                    "pointerEvents": "all",
+                                  }
+                                }
+                                text="redux"
+                                value="redux"
+                              >
+                                <div
+                                  aria-checked={false}
+                                  aria-disabled={undefined}
+                                  aria-selected={false}
+                                  className="item"
+                                  onClick={[Function]}
+                                  role="option"
+                                  style={
+                                    Object {
+                                      "pointerEvents": "all",
+                                    }
+                                  }
+                                >
+                                  <span
+                                    className="text"
+                                    key="redux"
+                                  >
+                                    redux
+                                  </span>
+                                </div>
+                              </DropdownItem>
+                              <DropdownItem
+                                active={false}
+                                key="2"
+                                onClick={[Function]}
+                                selected={false}
+                                style={
+                                  Object {
+                                    "pointerEvents": "all",
+                                  }
+                                }
+                                text="udacity"
+                                value="udacity"
+                              >
+                                <div
+                                  aria-checked={false}
+                                  aria-disabled={undefined}
+                                  aria-selected={false}
+                                  className="item"
+                                  onClick={[Function]}
+                                  role="option"
+                                  style={
+                                    Object {
+                                      "pointerEvents": "all",
+                                    }
+                                  }
+                                >
+                                  <span
+                                    className="text"
+                                    key="udacity"
+                                  >
+                                    udacity
+                                  </span>
+                                </div>
+                              </DropdownItem>
+                            </div>
+                          </DropdownMenu>
+                        </div>
+                      </Dropdown>
+                    </Select>
+                  </div>
+                </FormField>
+              </FormSelect>
+              <FormButton
+                as={[Function]}
+                className="btn-form"
+                control={[Function]}
+                fluid={true}
+                onClick={[Function]}
+                primary={true}
+                width={2}
+              >
+                <FormField
+                  className="btn-form"
+                  control={[Function]}
+                  fluid={true}
+                  onClick={[Function]}
+                  primary={true}
+                  width={2}
+                >
+                  <div
+                    className="two wide field btn-form"
+                  >
+                    <Button
+                      as="button"
+                      disabled={undefined}
+                      fluid={true}
+                      onClick={[Function]}
+                      primary={true}
+                      required={undefined}
+                      type={undefined}
+                    >
+                      <button
+                        className="ui fluid primary button"
+                        disabled={undefined}
+                        onClick={[Function]}
+                        required={undefined}
+                        role="button"
+                        tabIndex={undefined}
+                        type={undefined}
+                      >
+                        Save
+                      </button>
+                    </Button>
+                  </div>
+                </FormField>
+              </FormButton>
+              <FormButton
+                as={[Function]}
+                className="btn-form"
+                control={[Function]}
+                fluid={true}
+                onClick={[Function]}
+                width={2}
+              >
+                <FormField
+                  className="btn-form"
+                  control={[Function]}
+                  fluid={true}
+                  onClick={[Function]}
+                  width={2}
+                >
+                  <div
+                    className="two wide field btn-form"
+                  >
+                    <Button
+                      as="button"
+                      disabled={undefined}
+                      fluid={true}
+                      onClick={[Function]}
+                      required={undefined}
+                      type={undefined}
+                    >
+                      <button
+                        className="ui fluid button"
+                        disabled={undefined}
+                        onClick={[Function]}
+                        required={undefined}
+                        role="button"
+                        tabIndex={undefined}
+                        type={undefined}
+                      >
+                        Cancel
+                      </button>
+                    </Button>
+                  </div>
+                </FormField>
+              </FormButton>
+            </div>
+          </FormGroup>
+        </form>
+      </Form>
+    </div>
+  </Segment>
+</PostForm>
+`;
+
+exports[`PostForm Component testing validates edition form of a Post 1`] = `
 <PostForm
   categories={
     Array [

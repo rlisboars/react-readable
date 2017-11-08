@@ -3,7 +3,7 @@ import { Menu, Button } from 'semantic-ui-react'
 import { connect } from 'react-redux'
 import { setFilters } from '../actions'
 
-class ListActions extends Component {
+export class ListActions extends Component {
     
     setSort(option, content) {
         this.props.setFilters({

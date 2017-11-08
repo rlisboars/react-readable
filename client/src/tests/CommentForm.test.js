@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { MemoryRouter } from 'react-router-dom'
-import { CommentForm } from '../components/CommentForm'
-import { configure, mount, shallow } from 'enzyme'
+import { Provider } from 'react-redux'
+import ConnectedCommentForm, { CommentForm } from '../components/CommentForm'
+import { mount, shallow } from 'enzyme'
 import toJson from 'enzyme-to-json'
 import Adapter from 'enzyme-adapter-react-15'
-import { store } from './mockStore'
-
-configure({ adapter: new Adapter() })
+import { store, createStoreWithState, testState } from './mockStore'
 
 const commentData = {
     author: 'thingtwo',
@@ -20,12 +19,18 @@ const commentData = {
     voteScore: 6
 }
 
+const newComment = {
+    author: 'newAuthor', 
+    body: 'New body!',
+    parentId: commentData.parentId
+}
+
 
 
 describe('CommentForm Component testing', () => {
 
     const saveCommentFn = jest.fn()
-    saveCommentFn.mockReturnValueOnce(Promise.resolve(commentData))
+    saveCommentFn.mockReturnValue(Promise.resolve(commentData))
     const setFiltersFn = jest.fn()
 
     const commentEdit = mount(
@@ -45,8 +50,16 @@ describe('CommentForm Component testing', () => {
         />
     )
 
+    const commentCreateThenEdit = mount(
+        <CommentForm
+            parentId={commentData.parentId}
+            saveComment={saveCommentFn}
+            setFilters={setFiltersFn}
+        />
+    )
 
-    it('##### renders form without crashing', () => {
+
+    it('renders form without crashing', () => {
         const div = document.createElement('div');
         ReactDOM.render(
         <CommentForm
@@ -57,27 +70,65 @@ describe('CommentForm Component testing', () => {
         />, div);
     })
 
-    it('#### validates edition form of a Comment', () => {
+    it('validates edition form of a Comment', () => {
         expect(toJson(commentEdit.find(CommentForm))).toMatchSnapshot()
     })
 
-    it('#### validates creation form of a Comment', () => {
+    it('validates creation form of a Comment', () => {
         expect(toJson(commentCreate.find(CommentForm))).toMatchSnapshot()
     })
 
-    it('### save button is working properly', () => {
-        commentEdit.find('button').at(0).simulate('click')
+    it('validates creation turning into edition', () => {
+        commentCreateThenEdit.setProps({ comment: commentData })
+        expect(toJson(commentCreateThenEdit.find(CommentForm))).toMatchSnapshot()
+    })
+
+    it('save button is working properly for a new register', () => {
+        commentCreate.find('textarea').simulate('change', { target: { value: newComment.body }})
+        commentCreate.find('input').simulate('change', { target: { value: newComment.author }})
+        commentCreate.find('button').at(0).simulate('click')
         expect(saveCommentFn).toHaveBeenCalledWith(
             {
-                id: commentData.id,
-                body: commentData.body,
-                parentId: commentData.parentId
+               author: newComment.author,
+               body: newComment.body,
+               parentId: newComment.parentId
             })
     })
 
-    it('### cancel button is working properly', () => {
-       commentCreate.find('button').at(1).simulate('click')
+    it('save button is working properly when editing a register', () => {
+        commentCreateThenEdit.setProps({ comment: commentData })
+        commentCreateThenEdit.find('textarea').simulate('change', { target: { value: newComment.body }})
+        commentCreateThenEdit.find('button').at(0).simulate('click')
+  
+        expect(saveCommentFn).toHaveBeenLastCalledWith(
+            {
+               body: newComment.body,
+               id: commentData.id,
+               parentId: commentData.parentId
+            })
+    })
+
+    it('cancel button is working properly', () => {
+       commentEdit.find('button').at(1).simulate('click')
        expect(setFiltersFn).toHaveBeenCalledWith({ isCreatingComment: false })
+    })
+
+    it('validates connected CommentForm', () => {
+        const testStore = createStoreWithState({
+            ...testState, 
+            changes: {
+                ...testState.changes,
+                editingComment: commentData.id
+            }
+        })
+        const connectedCommentForm = mount(
+            <Provider store={testStore}>
+                    <ConnectedCommentForm 
+                        parentId={commentData.parentId}
+                    />
+            </Provider>
+        )
+        expect(toJson(connectedCommentForm.find(ConnectedCommentForm))).toMatchSnapshot()
     })
 
 })
