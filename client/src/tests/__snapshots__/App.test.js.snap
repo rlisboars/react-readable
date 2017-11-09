@@ -12,7 +12,7 @@ exports[`App Component testing #### capturing snapshot of App 1`] = `
     />
     <Route
       component={[Function]}
-      path="/post/:id"
+      path="/:category/:id"
     />
     <Route
       component={[Function]}

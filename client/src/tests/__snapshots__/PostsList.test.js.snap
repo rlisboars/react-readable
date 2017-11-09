@@ -3654,6 +3654,7 @@ exports[`PostsList Component testing snapshot of connected PostsList 1`] = `
           key="8xf0y6ziyjabvozdd253nd"
         >
           <Post
+            category="All"
             comments={
               Array [
                 Object {
@@ -3845,10 +3846,10 @@ exports[`PostsList Component testing snapshot of connected PostsList 1`] = `
                                       >
                                         <Link
                                           replace={false}
-                                          to="/post/8xf0y6ziyjabvozdd253nd"
+                                          to="/react/8xf0y6ziyjabvozdd253nd"
                                         >
                                           <a
-                                            href="/post/8xf0y6ziyjabvozdd253nd"
+                                            href="/react/8xf0y6ziyjabvozdd253nd"
                                             onClick={[Function]}
                                           >
                                             Udacity is the best place to learn React
@@ -3967,10 +3968,10 @@ exports[`PostsList Component testing snapshot of connected PostsList 1`] = `
                                   >
                                     <Link
                                       replace={false}
-                                      to="/post/8xf0y6ziyjabvozdd253nd"
+                                      to="/react/8xf0y6ziyjabvozdd253nd"
                                     >
                                       <a
-                                        href="/post/8xf0y6ziyjabvozdd253nd"
+                                        href="/react/8xf0y6ziyjabvozdd253nd"
                                         onClick={[Function]}
                                       >
                                         2
@@ -4539,6 +4540,7 @@ exports[`PostsList Component testing snpashot of PostsList with posts 1`] = `
         key="6ni6ok3ym7mf1p33lnez"
       >
         <Post
+          category="All"
           comments={undefined}
           data={
             Object {
@@ -4707,10 +4709,10 @@ exports[`PostsList Component testing snpashot of PostsList with posts 1`] = `
                                     >
                                       <Link
                                         replace={false}
-                                        to="/post/6ni6ok3ym7mf1p33lnez"
+                                        to="/redux/6ni6ok3ym7mf1p33lnez"
                                       >
                                         <a
-                                          href="/post/6ni6ok3ym7mf1p33lnez"
+                                          href="/redux/6ni6ok3ym7mf1p33lnez"
                                           onClick={[Function]}
                                         >
                                           Learn Redux in 10 minutes!
@@ -4829,10 +4831,10 @@ exports[`PostsList Component testing snpashot of PostsList with posts 1`] = `
                                 >
                                   <Link
                                     replace={false}
-                                    to="/post/6ni6ok3ym7mf1p33lnez"
+                                    to="/redux/6ni6ok3ym7mf1p33lnez"
                                   >
                                     <a
-                                      href="/post/6ni6ok3ym7mf1p33lnez"
+                                      href="/redux/6ni6ok3ym7mf1p33lnez"
                                       onClick={[Function]}
                                     >
                                       0
@@ -4893,6 +4895,7 @@ exports[`PostsList Component testing snpashot of PostsList with posts 1`] = `
         key="8xf0y6ziyjabvozdd253nd"
       >
         <Post
+          category="All"
           comments={
             Array [
               Object {
@@ -5084,10 +5087,10 @@ exports[`PostsList Component testing snpashot of PostsList with posts 1`] = `
                                     >
                                       <Link
                                         replace={false}
-                                        to="/post/8xf0y6ziyjabvozdd253nd"
+                                        to="/react/8xf0y6ziyjabvozdd253nd"
                                       >
                                         <a
-                                          href="/post/8xf0y6ziyjabvozdd253nd"
+                                          href="/react/8xf0y6ziyjabvozdd253nd"
                                           onClick={[Function]}
                                         >
                                           Udacity is the best place to learn React
@@ -5206,10 +5209,10 @@ exports[`PostsList Component testing snpashot of PostsList with posts 1`] = `
                                 >
                                   <Link
                                     replace={false}
-                                    to="/post/8xf0y6ziyjabvozdd253nd"
+                                    to="/react/8xf0y6ziyjabvozdd253nd"
                                   >
                                     <a
-                                      href="/post/8xf0y6ziyjabvozdd253nd"
+                                      href="/react/8xf0y6ziyjabvozdd253nd"
                                       onClick={[Function]}
                                     >
                                       2

@@ -470,8 +470,10 @@ exports[`CommentsList Component testing snapshot of connected CommentsList 1`] =
           }
         }
         detailed={true}
+        history={undefined}
       >
         <Post
+          category="All"
           comments={
             Array [
               Object {
@@ -511,6 +513,7 @@ exports[`CommentsList Component testing snapshot of connected CommentsList 1`] =
           deleteContent={[Function]}
           detailed={true}
           editPost={[Function]}
+          history={undefined}
           vote={[Function]}
         >
           <Segment
@@ -664,10 +667,10 @@ exports[`CommentsList Component testing snapshot of connected CommentsList 1`] =
                                     >
                                       <Link
                                         replace={false}
-                                        to="/post/8xf0y6ziyjabvozdd253nd"
+                                        to="/react/8xf0y6ziyjabvozdd253nd"
                                       >
                                         <a
-                                          href="/post/8xf0y6ziyjabvozdd253nd"
+                                          href="/react/8xf0y6ziyjabvozdd253nd"
                                           onClick={[Function]}
                                         >
                                           Udacity is the best place to learn React
@@ -810,10 +813,10 @@ exports[`CommentsList Component testing snapshot of connected CommentsList 1`] =
                                 >
                                   <Link
                                     replace={false}
-                                    to="/post/8xf0y6ziyjabvozdd253nd"
+                                    to="/react/8xf0y6ziyjabvozdd253nd"
                                   >
                                     <a
-                                      href="/post/8xf0y6ziyjabvozdd253nd"
+                                      href="/react/8xf0y6ziyjabvozdd253nd"
                                       onClick={[Function]}
                                     >
                                       2
@@ -2218,8 +2221,10 @@ exports[`CommentsList Component testing snpashot of CommentsList creating a comm
         }
       }
       detailed={true}
+      history={undefined}
     >
       <Post
+        category="All"
         comments={Array []}
         data={
           Object {
@@ -2236,6 +2241,7 @@ exports[`CommentsList Component testing snpashot of CommentsList creating a comm
         deleteContent={[Function]}
         detailed={true}
         editPost={[Function]}
+        history={undefined}
         vote={[Function]}
       >
         <Segment
@@ -2389,10 +2395,10 @@ exports[`CommentsList Component testing snpashot of CommentsList creating a comm
                                   >
                                     <Link
                                       replace={false}
-                                      to="/post/6ni6ok3ym7mf1p33lnez"
+                                      to="/redux/6ni6ok3ym7mf1p33lnez"
                                     >
                                       <a
-                                        href="/post/6ni6ok3ym7mf1p33lnez"
+                                        href="/redux/6ni6ok3ym7mf1p33lnez"
                                         onClick={[Function]}
                                       >
                                         Learn Redux in 10 minutes!
@@ -2535,10 +2541,10 @@ exports[`CommentsList Component testing snpashot of CommentsList creating a comm
                               >
                                 <Link
                                   replace={false}
-                                  to="/post/6ni6ok3ym7mf1p33lnez"
+                                  to="/redux/6ni6ok3ym7mf1p33lnez"
                                 >
                                   <a
-                                    href="/post/6ni6ok3ym7mf1p33lnez"
+                                    href="/redux/6ni6ok3ym7mf1p33lnez"
                                     onClick={[Function]}
                                   >
                                     0
@@ -3380,8 +3386,10 @@ exports[`CommentsList Component testing snpashot of CommentsList editing a comme
         }
       }
       detailed={true}
+      history={undefined}
     >
       <Post
+        category="All"
         comments={
           Array [
             Object {
@@ -3421,6 +3429,7 @@ exports[`CommentsList Component testing snpashot of CommentsList editing a comme
         deleteContent={[Function]}
         detailed={true}
         editPost={[Function]}
+        history={undefined}
         vote={[Function]}
       >
         <Segment
@@ -3574,10 +3583,10 @@ exports[`CommentsList Component testing snpashot of CommentsList editing a comme
                                   >
                                     <Link
                                       replace={false}
-                                      to="/post/8xf0y6ziyjabvozdd253nd"
+                                      to="/react/8xf0y6ziyjabvozdd253nd"
                                     >
                                       <a
-                                        href="/post/8xf0y6ziyjabvozdd253nd"
+                                        href="/react/8xf0y6ziyjabvozdd253nd"
                                         onClick={[Function]}
                                       >
                                         Udacity is the best place to learn React
@@ -3720,10 +3729,10 @@ exports[`CommentsList Component testing snpashot of CommentsList editing a comme
                               >
                                 <Link
                                   replace={false}
-                                  to="/post/8xf0y6ziyjabvozdd253nd"
+                                  to="/react/8xf0y6ziyjabvozdd253nd"
                                 >
                                   <a
-                                    href="/post/8xf0y6ziyjabvozdd253nd"
+                                    href="/react/8xf0y6ziyjabvozdd253nd"
                                     onClick={[Function]}
                                   >
                                     2
@@ -6416,8 +6425,10 @@ exports[`CommentsList Component testing snpashot of CommentsList with comments 1
         }
       }
       detailed={true}
+      history={undefined}
     >
       <Post
+        category="All"
         comments={
           Array [
             Object {
@@ -6457,6 +6468,7 @@ exports[`CommentsList Component testing snpashot of CommentsList with comments 1
         deleteContent={[Function]}
         detailed={true}
         editPost={[Function]}
+        history={undefined}
         vote={[Function]}
       >
         <Segment
@@ -6610,10 +6622,10 @@ exports[`CommentsList Component testing snpashot of CommentsList with comments 1
                                   >
                                     <Link
                                       replace={false}
-                                      to="/post/8xf0y6ziyjabvozdd253nd"
+                                      to="/react/8xf0y6ziyjabvozdd253nd"
                                     >
                                       <a
-                                        href="/post/8xf0y6ziyjabvozdd253nd"
+                                        href="/react/8xf0y6ziyjabvozdd253nd"
                                         onClick={[Function]}
                                       >
                                         Udacity is the best place to learn React
@@ -6756,10 +6768,10 @@ exports[`CommentsList Component testing snpashot of CommentsList with comments 1
                               >
                                 <Link
                                   replace={false}
-                                  to="/post/8xf0y6ziyjabvozdd253nd"
+                                  to="/react/8xf0y6ziyjabvozdd253nd"
                                 >
                                   <a
-                                    href="/post/8xf0y6ziyjabvozdd253nd"
+                                    href="/react/8xf0y6ziyjabvozdd253nd"
                                     onClick={[Function]}
                                   >
                                     2
@@ -8571,8 +8583,10 @@ exports[`CommentsList Component testing snpashot of CommentsList without comment
         }
       }
       detailed={true}
+      history={undefined}
     >
       <Post
+        category="All"
         comments={Array []}
         data={
           Object {
@@ -8589,6 +8603,7 @@ exports[`CommentsList Component testing snpashot of CommentsList without comment
         deleteContent={[Function]}
         detailed={true}
         editPost={[Function]}
+        history={undefined}
         vote={[Function]}
       >
         <Segment
@@ -8742,10 +8757,10 @@ exports[`CommentsList Component testing snpashot of CommentsList without comment
                                   >
                                     <Link
                                       replace={false}
-                                      to="/post/6ni6ok3ym7mf1p33lnez"
+                                      to="/redux/6ni6ok3ym7mf1p33lnez"
                                     >
                                       <a
-                                        href="/post/6ni6ok3ym7mf1p33lnez"
+                                        href="/redux/6ni6ok3ym7mf1p33lnez"
                                         onClick={[Function]}
                                       >
                                         Learn Redux in 10 minutes!
@@ -8888,10 +8903,10 @@ exports[`CommentsList Component testing snpashot of CommentsList without comment
                               >
                                 <Link
                                   replace={false}
-                                  to="/post/6ni6ok3ym7mf1p33lnez"
+                                  to="/redux/6ni6ok3ym7mf1p33lnez"
                                 >
                                   <a
-                                    href="/post/6ni6ok3ym7mf1p33lnez"
+                                    href="/redux/6ni6ok3ym7mf1p33lnez"
                                     onClick={[Function]}
                                   >
                                     0

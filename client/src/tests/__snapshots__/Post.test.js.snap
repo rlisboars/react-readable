@@ -180,10 +180,10 @@ exports[`Post Component testing ### validates snapshot of Post with details and 
                             >
                               <Link
                                 replace={false}
-                                to="/post/8xf0y6ziyjabvozdd253nd"
+                                to="/react/8xf0y6ziyjabvozdd253nd"
                               >
                                 <a
-                                  href="/post/8xf0y6ziyjabvozdd253nd"
+                                  href="/react/8xf0y6ziyjabvozdd253nd"
                                   onClick={[Function]}
                                 >
                                   Udacity is the best place to learn React
@@ -302,10 +302,10 @@ exports[`Post Component testing ### validates snapshot of Post with details and 
                         >
                           <Link
                             replace={false}
-                            to="/post/8xf0y6ziyjabvozdd253nd"
+                            to="/react/8xf0y6ziyjabvozdd253nd"
                           >
                             <a
-                              href="/post/8xf0y6ziyjabvozdd253nd"
+                              href="/react/8xf0y6ziyjabvozdd253nd"
                               onClick={[Function]}
                             >
                               1
@@ -493,10 +493,10 @@ exports[`Post Component testing #### validates snapshot of Post with details 1`]
                             >
                               <Link
                                 replace={false}
-                                to="/post/8xf0y6ziyjabvozdd253nd"
+                                to="/react/8xf0y6ziyjabvozdd253nd"
                               >
                                 <a
-                                  href="/post/8xf0y6ziyjabvozdd253nd"
+                                  href="/react/8xf0y6ziyjabvozdd253nd"
                                   onClick={[Function]}
                                 >
                                   Udacity is the best place to learn React
@@ -615,10 +615,10 @@ exports[`Post Component testing #### validates snapshot of Post with details 1`]
                         >
                           <Link
                             replace={false}
-                            to="/post/8xf0y6ziyjabvozdd253nd"
+                            to="/react/8xf0y6ziyjabvozdd253nd"
                           >
                             <a
-                              href="/post/8xf0y6ziyjabvozdd253nd"
+                              href="/react/8xf0y6ziyjabvozdd253nd"
                               onClick={[Function]}
                             >
                               0
@@ -810,10 +810,10 @@ exports[`Post Component testing #### validates snapshot of Post without details 
                             >
                               <Link
                                 replace={false}
-                                to="/post/8xf0y6ziyjabvozdd253nd"
+                                to="/react/8xf0y6ziyjabvozdd253nd"
                               >
                                 <a
-                                  href="/post/8xf0y6ziyjabvozdd253nd"
+                                  href="/react/8xf0y6ziyjabvozdd253nd"
                                   onClick={[Function]}
                                 >
                                   Udacity is the best place to learn React
@@ -956,10 +956,10 @@ exports[`Post Component testing #### validates snapshot of Post without details 
                         >
                           <Link
                             replace={false}
-                            to="/post/8xf0y6ziyjabvozdd253nd"
+                            to="/react/8xf0y6ziyjabvozdd253nd"
                           >
                             <a
-                              href="/post/8xf0y6ziyjabvozdd253nd"
+                              href="/react/8xf0y6ziyjabvozdd253nd"
                               onClick={[Function]}
                             >
                               0
