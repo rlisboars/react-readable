@@ -24,6 +24,14 @@ $ npm run server
 $ npm run client
 ```
 
+- Run test scenarios
+```sh
+$ cd /client
+$ npm run test
+$ npm run test:coverage
+```
+
+
 ## Project Requirements
 ### App configuration:
 * Easy setup: 
