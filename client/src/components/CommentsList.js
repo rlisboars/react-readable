@@ -78,7 +78,7 @@ export class CommentsList extends Component {
                         <PostForm />
                     }
                     { !filters.isCreatingPost &&
-                        <Post data={post} comments={postComments} detailed/>
+                        <Post data={post} comments={postComments} history={this.props.history} detailed/>
                     }
                     <ListActions comment />
                     <Segment.Group>

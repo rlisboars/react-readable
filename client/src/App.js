@@ -10,7 +10,7 @@ export class App extends Component {
 			<div className="App">
 				<Switch>
 				<Route path='/' exact component={PostsList} />
-				<Route path='/post/:id' component={CommentsList} />
+				<Route path='/:category/:id' component={CommentsList} />
 				<Route path='/:category' component={PostsList} />
 				</Switch>
 				<footer>

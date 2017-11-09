@@ -6,7 +6,7 @@ import { editPost, vote, deleteContent } from '../actions'
 
 export class Post extends Component {
     render() {
-        const { data } = this.props
+        const { data, category } = this.props
         let comments = this.props.comments 
                         ? this.props.comments.slice().filter(cmt => cmt.deleted === false)
                         :[]
@@ -35,14 +35,17 @@ export class Post extends Component {
                         <Grid>
                             <Grid.Row>
                                 <Grid.Column width={14}>
-                                    <Header as='h3'><Link to={`/post/${data.id}`}>{data.title}</Link></Header>
+                                    <Header as='h3'><Link to={`/${data.category}/${data.id}`}>{data.title}</Link></Header>
                                 </Grid.Column>
                                 <Grid.Column width={2} style={{ 'paddingLeft': '0px' }}>
                                     <Button.Group size='mini' basic floated='right'>
                                         <Button icon='write' compact
                                             onClick={(evt) => this.props.editPost(data.id)} />
                                         <Button icon='trash' compact
-                                            onClick={(evt) => this.props.deleteContent(data.id, 'POST')} />
+                                            onClick={(evt) => { 
+                                                this.props.deleteContent(data.id, 'POST')
+                                                if (this.props.history) this.props.history.push(`/${category !== 'All' ? category : ''}`)
+                                            }} />
                                     </Button.Group>
                                 </Grid.Column>
                             </Grid.Row>
@@ -58,7 +61,7 @@ export class Post extends Component {
                                     by {data.author} to {data.category} on { date.toLocaleString() }
                             </Grid.Column>
                                 <Grid.Column width={4} textAlign='right'>
-                                <Link to={`/post/${data.id}`}>{ comments ? comments.length : '0'} comments</Link>
+                                <Link to={`/${data.category}/${data.id}`}>{ comments ? comments.length : '0'} comments</Link>
                             </Grid.Column>
                             </Grid.Row>
                         </Grid>
@@ -69,4 +72,8 @@ export class Post extends Component {
     }
 }
 
-export default connect(null, { editPost, vote, deleteContent })(Post)
+function mapStateToProps({ filters }) {
+    return { category: filters.category }
+}
+
+export default connect(mapStateToProps, { editPost, vote, deleteContent })(Post)
